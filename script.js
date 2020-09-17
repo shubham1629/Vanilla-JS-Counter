@@ -9,7 +9,7 @@ function getSize(length) {
 function buttonHandler(action) {
     switch (action) {
         case 'inc':
-            counter += 10;
+            counter++;
             break;
         case 'dec':
             if (counter)
